@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="https://formsubmit.co/mauric_fl@hotmail.com" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+
+        <input type="hidden" name="_subject" value="Novo Contato!">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+</body>
+
+</html>
